@@ -1,0 +1,28 @@
+.articleForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  .text {
+    margin-top: 15px;
+  }
+  .theme {
+    margin-bottom: 15px;
+  }
+  .author {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .btnMain {
+    margin-right: 5px;
+  }
+
+  .add {
+    width: 130px;
+  }
+}

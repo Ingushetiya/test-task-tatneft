@@ -1,0 +1,1 @@
+export const ARTICLE_SLICE_STATE = (state) => state.article.list

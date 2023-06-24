@@ -1,0 +1,33 @@
+.articleList {
+  border: 2px solid rgb(163, 163, 163);
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 400px;
+  border-radius: 8px;
+  cursor: pointer;
+
+  .article {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+    }
+  }
+}
+
+.icons {
+  .editIcon {
+    height: 40px;
+    width: 40px;
+    .icon {
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
